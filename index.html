@@ -18,12 +18,26 @@
   <main class="main">
     <!-- ---------- NAV ---------- -->
     <nav class="nav">
-      <h1 class="nav__h1">illancapan</h1>
-      <img class="nav__img" src="assets/img/illancapanLogo.svg" alt="illancapan logo">
-      <button class="nav__boton">Get Started</button>
+      <a href="#"><img class="nav__img" src="assets/img/illancapanLogo.svg" alt="illancapan logo"></a>
+      <a href="#"><h1 class="nav__h1">illancapan.</h1></a>
+      <p class="nav__p">Analista Programador.</p>
+      <p class="nav__p">Web Developer.</p>
+      <p class="nav__p">Frontend Developer.</p>
+
+      <ol class="nav__menu footer__menu">
+        <a href="#header">
+          <li class="nav__menu--li footer__menu--li">About me</li>
+        </a>
+        <a href="#footer">
+          <li class="nav__menu--li footer__menu--li">Contacto </li>
+        </a>
+        <a href="#footer">
+          <i class="fa-solid fa-angle-down fa-2xl footer__menu--li" id="footer__arrow--none"></i>
+        </a>
+      </ol>
     </nav>
     <!-- ---------- HEADER ---------- -->
-    <header class="header">
+    <header class="header" id="header">
       <h2 class="header__h2">About Me</h2>
       <!-- <img class="header__img" src="assets/img/log.jpeg" alt="img avatar"> -->
       <p class="header__parrafo">
@@ -49,13 +63,13 @@
           <img class="section__tarjeta--img" src="assets/img/3.webp" alt="img 1" />
           <h2 class="section__tarjeta--h2">PAISAJE</h2>
         </div>
+      </div>
+
+      <div class="section__tarjeta">
         <div class="section__tarjeta--contenedor">
           <img class="section__tarjeta--img" src="assets/img/4.webp" alt="img 1" />
           <h2 class="section__tarjeta--h2">CALLEJÓN</h2>
         </div>
-      </div>
-
-      <div class="section__tarjeta">
         <div class="section__tarjeta--contenedor">
           <img class="section__tarjeta--img" src="assets/img/5.webp" alt="img 1" />
           <h2 class="section__tarjeta--h2">EDIFICIO</h2>
@@ -64,6 +78,9 @@
           <img class="section__tarjeta--img" src="assets/img/6.webp" alt="img 1" />
           <h2 class="section__tarjeta--h2">EDIFICIO</h2>
         </div>
+      </div>
+
+      <div class="section__tarjeta">
         <div class="section__tarjeta--contenedor">
           <img class="section__tarjeta--img" src="assets/img/7.webp" alt="img 1" />
           <h2 class="section__tarjeta--h2">CAFÉ</h2>
@@ -72,13 +89,12 @@
           <img class="section__tarjeta--img" src="assets/img/8.webp" alt="img 1" />
           <h2 class="section__tarjeta--h2">PAREJA</h2>
         </div>
-      </div>
-
-      <div class="section__tarjeta">
         <div class="section__tarjeta--contenedor">
           <img class="section__tarjeta--img" src="assets/img/9.webp" alt="img 1" />
           <h2 class="section__tarjeta--h2">CAFETERÍA</h2>
         </div>
+      </div>
+      <div class="section__tarjeta">
         <div class="section__tarjeta--contenedor">
           <img class="section__tarjeta--img" src="assets/img/10.webp" alt="img 1" />
           <h2 class="section__tarjeta--h2">FOTOGRAFÍA</h2>
@@ -92,19 +108,18 @@
           <h2 class="section__tarjeta--h2">URBANO</h2>
         </div>
       </div>
-      <div class="section__tarjetas">
-      </div>
+
     </section>
 
     <!-- ---------- FOOTER ---------- -->
-    <footer class="footer">
-      <h2 class="footer__h2" />
-      illancapan. </h2>
+    <footer class="footer" id="footer">
+      <a href="#"><h2 class="footer__h2" />
+      illancapan. </h2></a>
       <ol class="footer__menu">
-        <a href="#">
+        <a href="#header">
           <li class="footer__menu--li">About me</li>
         </a>
-        <a href="#">
+        <a href="#footer">
           <li class="footer__menu--li">Contacto </li>
         </a>
         <div class="footer__menu--social">
