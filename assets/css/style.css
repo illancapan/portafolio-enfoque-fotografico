@@ -238,6 +238,7 @@ display: none;
     font-style: italic;
     font-weight: 300;
     line-height: normal;
+    display: block;
   }
 /* ---------- HEADER ---------- */
  .header {
