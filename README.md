@@ -1,5 +1,8 @@
 # Portafolio Personal: Enfoque Fotográfico
 
+👉 Vista la preview en el siguiente [link](https://illancapan.github.io/desafio-10/).
+
+
 ¡Hola! Soy Igor LLancapán, estudiante del curso Desafío Latam, y estoy emocionado de presentarte mi proyecto real: un enfoque fotográfico en mi portafolio personal.
 
 ## Detalles Clave
