@@ -1,6 +1,6 @@
 # Portafolio Personal: Enfoque Fotográfico
 
-👉 **Vista la preview en el siguiente [link](https://illancapan.github.io/desafio-10/).**
+👉 **Vista la preview en el siguiente [link](https://illancapan.github.io/portafolio-enfoque-fotografico/).**
 
 
 
